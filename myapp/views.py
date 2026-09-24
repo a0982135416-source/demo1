@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
     return HttpResponse("This is the about page.")
+
+def cweb(request):
+    return HttpResponse("This is the cweb page.")
