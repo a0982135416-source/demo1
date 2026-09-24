@@ -21,6 +21,11 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD:demo1(copy)/urls.py
+    # path('', views.home, name='home'),
+    path('aweb/', views.aweb, name='aweb'),
+=======
     path('', views.home, name='home'),
     path('cweb/', views.cweb, name='cweb')
+>>>>>>> origin/main:demo1/urls.py
 ]
